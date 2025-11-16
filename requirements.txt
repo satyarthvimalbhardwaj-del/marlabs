@@ -1,0 +1,55 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+gunicorn==21.2.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+pydantic[email]==2.5.3
+pydantic-settings==2.1.0
+
+# Redis (Optional - for sessions/caching)
+redis==5.0.1
+hiredis==2.3.2
+
+# CORS & Middleware
+python-dotenv==1.0.0
+
+# Validation & Data Models
+email-validator==2.1.0
+
+# WebSocket Support
+websockets==12.0
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+
+# HTTP Client (for testing)
+httpx==0.26.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Code Quality
+black==24.1.1
+flake8==7.0.0
+isort==5.13.2
+mypy==1.8.0
+
+# Documentation
+markdown==3.5.2
+
+# Utilities
+python-dateutil==2.8.2
